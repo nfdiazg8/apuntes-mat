@@ -31,20 +31,31 @@ incremental. Al hacer $h \to 0$ esa recta se acuesta sobre la curva: la tangente
 
 ```{r}
 #| echo: true
-#| fig-height: 4
 #| filename: "R · secantes que se acercan a la tangente"
+library(plotly)
+
 f <- function(x) x^2
 a <- 1
-hs <- c(1, .5, .1)
+x <- seq(-0.5, 2.8, length.out = 200)
 
-curve(f, from = -0.5, to = 2.8, lwd = 2, ylab = "f(x)", bty = "n")
-for (i in seq_along(hs)) {
-  h <- hs[i]
+p <- plot_ly() |>
+  add_lines(x = x, y = f(x), name = "f(x) = x²",
+            line = list(color = "#1f4e79", width = 3))
+
+for (h in c(1, .5, .1)) {
   m <- (f(a + h) - f(a)) / h
-  abline(a = f(a) - m * a, b = m, col = "grey60", lty = 2)
+  p <- add_lines(p, x = x, y = f(a) + m * (x - a),
+                 name = sprintf("h = %.2f → pendiente %.2f", h, m),
+                 line = list(dash = "dot", width = 1.5))
 }
-abline(a = f(a) - 2 * a, b = 2, col = "#1f4e79", lwd = 2)  # tangente
-points(a, f(a), pch = 19)
+
+p |>
+  add_lines(x = x, y = f(a) + 2 * (x - a), name = "tangente (h → 0)",
+            line = list(color = "#0f766e", width = 2.5)) |>
+  add_markers(x = a, y = f(a), name = "(a, f(a))",
+              marker = list(size = 9, color = "#17181a")) |>
+  layout(hovermode = "x unified",
+         xaxis = list(title = "x"), yaxis = list(title = "f(x)"))
 ```
 
 ## Derivabilidad implica continuidad
