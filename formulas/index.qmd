@@ -1,0 +1,36 @@
+---
+title: "Fórmulas"
+description: "Formulario de consulta rápida"
+sidebar: false
+toc: true
+---
+
+Formulario de consulta rápida. Cada bloque enlaza al apunte donde se demuestra.
+
+## Cálculo diferencial
+
+::: {.definicion}
+[Derivada]{.etiqueta}
+
+$$
+f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+$$
+:::
+
+::: {.definicion}
+[Regla del producto]{.etiqueta}
+
+$$
+(fg)' = f'g + fg'
+$$
+:::
+
+## Precálculo
+
+::: {.definicion}
+[Identidad fundamental]{.etiqueta}
+
+$$
+\sin^2\theta + \cos^2\theta = 1
+$$
+:::

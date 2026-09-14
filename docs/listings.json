@@ -1,0 +1,36 @@
+[
+  {
+    "listing": "/materias/precalculo/index.html",
+    "items": [
+      "/materias/precalculo/funciones-trig.html"
+    ]
+  },
+  {
+    "listing": "/materias/fundamentos/index.html",
+    "items": [
+      "/materias/fundamentos/logica-cuantificadores.html"
+    ]
+  },
+  {
+    "listing": "/materias/geometria-euclidiana/index.html",
+    "items": [
+      "/materias/geometria-euclidiana/semejanza-triangulos.html"
+    ]
+  },
+  {
+    "listing": "/materias/calculo-diferencial/index.html",
+    "items": [
+      "/materias/calculo-diferencial/derivada.html",
+      "/materias/calculo-diferencial/limites-continuidad.html"
+    ]
+  },
+  {
+    "listing": "/materias/index.html",
+    "items": [
+      "/materias/fundamentos/index.html",
+      "/materias/precalculo/index.html",
+      "/materias/geometria-euclidiana/index.html",
+      "/materias/calculo-diferencial/index.html"
+    ]
+  }
+]

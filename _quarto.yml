@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "apuntes-mat"
+  site-url: "https://nfdiazg8.github.io/apuntes-mat"
+  repo-url: "https://github.com/nfdiazg8/apuntes-mat"
+  repo-actions: [source, issue]
+
+  search:
+    location: navbar
+    type: textbox
+    copy-button: false
+
+  navbar:
+    title: "~/apuntes-mat $"
+    logo: ""
+    left:
+      - text: "[m]aterias"
+        href: materias/index.qmd
+      - text: "[h]erramientas"
+        href: herramientas/index.qmd
+      - text: "[f]órmulas"
+        href: formulas/index.qmd
+    right:
+      - icon: github
+        href: "https://github.com/nfdiazg8/apuntes-mat"
+        aria-label: "Repositorio en GitHub"
+
+  sidebar:
+    style: docked
+    align: left
+    collapse-level: 2
+    contents:
+      - text: "Todas las materias"
+        href: materias/index.qmd
+      - section: "Fundamentos de matemáticas"
+        contents:
+          - materias/fundamentos/index.qmd
+          - materias/fundamentos/logica-cuantificadores.qmd
+      - section: "Precálculo"
+        contents:
+          - materias/precalculo/index.qmd
+          - materias/precalculo/funciones-trig.qmd
+      - section: "Geometría euclidiana"
+        contents:
+          - materias/geometria-euclidiana/index.qmd
+          - materias/geometria-euclidiana/semejanza-triangulos.qmd
+      - section: "Cálculo diferencial"
+        contents:
+          - materias/calculo-diferencial/index.qmd
+          - materias/calculo-diferencial/limites-continuidad.qmd
+          - materias/calculo-diferencial/derivada.qmd
+
+  page-navigation: true
+
+  page-footer:
+    border: true
+    left: "Nicolás Díaz · Matemáticas con énfasis en Estadística"
+    right: "Hecho con [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [default, styles/base.scss, styles/claro.scss]
+      dark: [default, styles/base.scss, styles/oscuro.scss]
+    include-in-header: _includes/fuentes.html
+    toc: true
+    toc-title: "En esta página"
+    toc-depth: 3
+    anchor-sections: true
+    code-copy: true
+    code-overflow: scroll
+    highlight-style: nord
+    link-external-newwindow: true
+    fig-align: center
+
+lang: es

@@ -1,0 +1,180 @@
+[
+  {
+    "objectID": "herramientas/index.html",
+    "href": "herramientas/index.html",
+    "title": "Herramientas",
+    "section": "",
+    "text": "Caja de herramientas · en construcción\n\nCalculadoras pequeñas para no tener que abrir R por una cuenta de dos líneas.\n\n\n\nHerramienta\nEstado\n\n\n\n\nCalculadora de la normal estándar\nen construcción\n\n\nTablas Z y t\npendiente\n\n\nIntervalos de confianza\npendiente\n\n\n\nLa calculadora normal del diseño usa la aproximación de Zelen & Severo para la función de distribución acumulada; se puede portar tal cual a un chunk de {ojs} cuando la montemos."
+  },
+  {
+    "objectID": "materias/precalculo/index.html",
+    "href": "materias/precalculo/index.html",
+    "title": "Precálculo",
+    "section": "",
+    "text": "Funciones elementales, gráficas, transformaciones y trigonometría.\n\n\n\n\n\nFunciones trigonométricas\n\n\nCírculo unitario e identidades\n\n\n\n\n\n5 sep 2026\n\n\n\n\n\nNo hay resultados",
+    "crumbs": [
+      "[m]aterias",
+      "Precálculo",
+      "Precálculo"
+    ]
+  },
+  {
+    "objectID": "materias/calculo-diferencial/derivada.html",
+    "href": "materias/calculo-diferencial/derivada.html",
+    "title": "La derivada",
+    "section": "",
+    "text": "Tema 3 · 12 sep 2026\nLa derivada mide cuánto cambia una función cuando su entrada cambia poquísimo. Formalmente es el límite de la pendiente de las rectas secantes cuando los dos puntos se juntan.",
+    "crumbs": [
+      "[m]aterias",
+      "Cálculo diferencial",
+      "La derivada"
+    ]
+  },
+  {
+    "objectID": "materias/calculo-diferencial/derivada.html#interpretación-geométrica",
+    "href": "materias/calculo-diferencial/derivada.html#interpretación-geométrica",
+    "title": "La derivada",
+    "section": "Interpretación geométrica",
+    "text": "Interpretación geométrica\nLa secante por \\((a, f(a))\\) y \\((a+h, f(a+h))\\) tiene pendiente igual al cociente incremental. Al hacer \\(h \\to 0\\) esa recta se acuesta sobre la curva: la tangente.\n\n\nR · secantes que se acercan a la tangente\n\nf &lt;- function(x) x^2\na &lt;- 1\n\nfor (h in c(1, .5, .1, .01)) {\n  m &lt;- (f(a + h) - f(a)) / h\n  cat(sprintf(\"h = %.2f  pendiente = %.3f\\n\", h, m))\n}\n\n\nsalida del chunk: secantes → tangente",
+    "crumbs": [
+      "[m]aterias",
+      "Cálculo diferencial",
+      "La derivada"
+    ]
+  },
+  {
+    "objectID": "materias/calculo-diferencial/derivada.html#derivabilidad-implica-continuidad",
+    "href": "materias/calculo-diferencial/derivada.html#derivabilidad-implica-continuidad",
+    "title": "La derivada",
+    "section": "Derivabilidad implica continuidad",
+    "text": "Derivabilidad implica continuidad\n\nTeorema 3.2\nSi \\(f\\) es derivable en \\(a\\), entonces \\(f\\) es continua en \\(a\\).\n\nDemostración. Para \\(x \\neq a\\) escribimos\n\\[\nf(x) - f(a) = \\frac{f(x) - f(a)}{x - a} \\cdot (x - a).\n\\]\nTomando límite cuando \\(x \\to a\\), el primer factor tiende a \\(f'(a)\\) y el segundo a \\(0\\), así que \\(\\lim_{x \\to a} f(x) = f(a)\\). \\(\\blacksquare\\)\nEl recíproco es falso: \\(f(x) = |x|\\) es continua en \\(0\\) pero no derivable ahí, porque los límites laterales del cociente incremental valen \\(-1\\) y \\(1\\).",
+    "crumbs": [
+      "[m]aterias",
+      "Cálculo diferencial",
+      "La derivada"
+    ]
+  },
+  {
+    "objectID": "materias/calculo-diferencial/limites-continuidad.html",
+    "href": "materias/calculo-diferencial/limites-continuidad.html",
+    "title": "Límites y continuidad",
+    "section": "",
+    "text": "Tema 1 · 2 sep 2026\n\n\nApunte en construcción.",
+    "crumbs": [
+      "[m]aterias",
+      "Cálculo diferencial",
+      "Límites y continuidad"
+    ]
+  },
+  {
+    "objectID": "materias/fundamentos/index.html",
+    "href": "materias/fundamentos/index.html",
+    "title": "Fundamentos de matemáticas",
+    "section": "",
+    "text": "Lógica proposicional, cuantificadores, métodos de demostración y teoría básica de conjuntos.\n\n\n\n\n\nLógica y cuantificadores\n\n\nProposiciones, conectivos y cuantificadores\n\n\n\n\n\n31 ago 2026\n\n\n\n\n\nNo hay resultados",
+    "crumbs": [
+      "[m]aterias",
+      "Fundamentos de matemáticas",
+      "Fundamentos de matemáticas"
+    ]
+  },
+  {
+    "objectID": "materias/geometria-euclidiana/index.html",
+    "href": "materias/geometria-euclidiana/index.html",
+    "title": "Geometría euclidiana",
+    "section": "",
+    "text": "Sistema axiomático, congruencia, semejanza y círculo.\n\n\n\n\n\nSemejanza de triángulos\n\n\nCriterios AA, LAL y LLL\n\n\n\n\n\n9 sep 2026\n\n\n\n\n\nNo hay resultados",
+    "crumbs": [
+      "[m]aterias",
+      "Geometría euclidiana",
+      "Geometría euclidiana"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Apuntes declase, en limpio",
+    "section": "",
+    "text": "Matemáticas con énfasis en Estadística\nApuntes declase, en limpio\nLo que escribo mientras estudio: demostraciones completas, ejercicios resueltos y el código que reproduce cada gráfica. La caja de herramientas de estadística se va llenando poco a poco.\n\n\nCommits recientes\n12-09derivada.qmd\n09-09semejanza-triangulos.qmd\n05-09funciones-trig.qmd\n31-08logica-cuantificadores.qmd\n\n\n\n\nÚLTIMO APUNTE\nLa derivada como límite del cociente incremental · 12 sep 2026 · Cálculo diferencial\nleer →\n\n\n\nMaterias con contenido\n4 activas\n\n\n\n01Fundamentos de matemáticaslógica · conjuntos→\n02Precálculofunciones · trigonometría→\n03Geometría euclidianaaxiomas · semejanza→\n04Cálculo diferenciallímites · derivadas→\n\n\n\n\nCaja de herramientas · en construcción\nPrimera herramienta lista: calculadora de la normal estándar. Siguen tablas Z y t, e intervalos de confianza.\n\nver 1 de 3\n\n\n\n\n\n\n04apuntes publicados\n04materias activas\n00cheatsheets PDF\n01herramienta activa"
+  },
+  {
+    "objectID": "formulas/index.html",
+    "href": "formulas/index.html",
+    "title": "Fórmulas",
+    "section": "",
+    "text": "Formulario de consulta rápida. Cada bloque enlaza al apunte donde se demuestra."
+  },
+  {
+    "objectID": "formulas/index.html#cálculo-diferencial",
+    "href": "formulas/index.html#cálculo-diferencial",
+    "title": "Fórmulas",
+    "section": "Cálculo diferencial",
+    "text": "Cálculo diferencial\n\nDerivada\n\\[\nf'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}\n\\]\n\n\nRegla del producto\n\\[\n(fg)' = f'g + fg'\n\\]"
+  },
+  {
+    "objectID": "formulas/index.html#precálculo",
+    "href": "formulas/index.html#precálculo",
+    "title": "Fórmulas",
+    "section": "Precálculo",
+    "text": "Precálculo\n\nIdentidad fundamental\n\\[\n\\sin^2\\theta + \\cos^2\\theta = 1\n\\]"
+  },
+  {
+    "objectID": "materias/geometria-euclidiana/semejanza-triangulos.html",
+    "href": "materias/geometria-euclidiana/semejanza-triangulos.html",
+    "title": "Semejanza de triángulos",
+    "section": "",
+    "text": "Tema 2 · 9 sep 2026\n\n\nApunte en construcción.",
+    "crumbs": [
+      "[m]aterias",
+      "Geometría euclidiana",
+      "Semejanza de triángulos"
+    ]
+  },
+  {
+    "objectID": "materias/fundamentos/logica-cuantificadores.html",
+    "href": "materias/fundamentos/logica-cuantificadores.html",
+    "title": "Lógica y cuantificadores",
+    "section": "",
+    "text": "Tema 1 · 31 ago 2026\n\n\nApunte en construcción.",
+    "crumbs": [
+      "[m]aterias",
+      "Fundamentos de matemáticas",
+      "Lógica y cuantificadores"
+    ]
+  },
+  {
+    "objectID": "materias/calculo-diferencial/index.html",
+    "href": "materias/calculo-diferencial/index.html",
+    "title": "Cálculo diferencial",
+    "section": "",
+    "text": "Límites, continuidad, derivadas y sus aplicaciones.\n\n\n\n\n\nLa derivada\n\n\nEl límite del cociente incremental\n\n\n\n\n\n12 sep 2026\n\n\n\n\n\n\n\nLímites y continuidad\n\n\nDefinición épsilon-delta y propiedades\n\n\n\n\n\n2 sep 2026\n\n\n\n\n\nNo hay resultados",
+    "crumbs": [
+      "[m]aterias",
+      "Cálculo diferencial",
+      "Cálculo diferencial"
+    ]
+  },
+  {
+    "objectID": "materias/precalculo/funciones-trig.html",
+    "href": "materias/precalculo/funciones-trig.html",
+    "title": "Funciones trigonométricas",
+    "section": "",
+    "text": "Tema 2 · 5 sep 2026\n\n\nApunte en construcción.",
+    "crumbs": [
+      "[m]aterias",
+      "Precálculo",
+      "Funciones trigonométricas"
+    ]
+  },
+  {
+    "objectID": "materias/index.html",
+    "href": "materias/index.html",
+    "title": "Materias",
+    "section": "",
+    "text": "Cada materia agrupa los apuntes en el orden en que se ven en clase.\n\n\n\n\n\n\nMateria\n\n\n\nContenido\n\n\n\n\n\n\n\n\nFundamentos de matemáticas\n\n\nlógica · conjuntos\n\n\n\n\n\n\nPrecálculo\n\n\nfunciones · trigonometría\n\n\n\n\n\n\nGeometría euclidiana\n\n\naxiomas · semejanza\n\n\n\n\n\n\nCálculo diferencial\n\n\nlímites · derivadas\n\n\n\n\n\n\nNo hay resultados",
+    "crumbs": [
+      "[m]aterias",
+      "Todas las materias"
+    ]
+  }
+]

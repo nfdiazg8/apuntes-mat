@@ -1,0 +1,19 @@
+---
+title: "Fundamentos de matemáticas"
+description: "lógica · conjuntos"
+listing:
+  id: apuntes
+  contents: "*.qmd"
+  type: default
+  fields: [title, subtitle, date]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  date-format: "D MMM YYYY"
+toc: false
+---
+
+Lógica proposicional, cuantificadores, métodos de demostración y teoría básica de conjuntos.
+
+::: {#apuntes}
+:::

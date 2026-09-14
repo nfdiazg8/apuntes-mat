@@ -1,0 +1,19 @@
+---
+title: "Precálculo"
+description: "funciones · trigonometría"
+listing:
+  id: apuntes
+  contents: "*.qmd"
+  type: default
+  fields: [title, subtitle, date]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  date-format: "D MMM YYYY"
+toc: false
+---
+
+Funciones elementales, gráficas, transformaciones y trigonometría.
+
+::: {#apuntes}
+:::

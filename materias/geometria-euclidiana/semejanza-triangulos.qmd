@@ -1,0 +1,11 @@
+---
+title: "Semejanza de triángulos"
+subtitle: "Criterios AA, LAL y LLL"
+date: 2026-09-09
+---
+
+::: {.kicker}
+Tema 2 · 9 sep 2026
+:::
+
+> Apunte en construcción.

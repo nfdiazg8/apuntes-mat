@@ -1,0 +1,24 @@
+---
+title: "Materias"
+listing:
+  id: lista-materias
+  contents:
+    - fundamentos/index.qmd
+    - precalculo/index.qmd
+    - geometria-euclidiana/index.qmd
+    - calculo-diferencial/index.qmd
+  type: table
+  fields: [title, description]
+  field-display-names:
+    title: "Materia"
+    description: "Contenido"
+  sort: false
+  filter-ui: false
+  sort-ui: false
+toc: false
+---
+
+Cada materia agrupa los apuntes en el orden en que se ven en clase.
+
+::: {#lista-materias}
+:::

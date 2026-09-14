@@ -1,0 +1,64 @@
+---
+title: "La derivada"
+subtitle: "El límite del cociente incremental"
+date: 2026-09-12
+categories: [cálculo diferencial, derivadas]
+description: "Definición de la derivada como límite del cociente incremental y su lectura geométrica como pendiente de la recta tangente."
+---
+
+::: {.kicker}
+Tema 3 · 12 sep 2026
+:::
+
+La derivada mide cuánto cambia una función cuando su entrada cambia poquísimo.
+Formalmente es el límite de la pendiente de las rectas secantes cuando los dos
+puntos se juntan.
+
+::: {.definicion}
+[Definición 3.1]{.etiqueta}
+
+$$
+f'(a) \;=\; \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+$$
+
+cuando el límite existe. Si existe, decimos que $f$ es **derivable** en $a$.
+:::
+
+## Interpretación geométrica
+
+La secante por $(a, f(a))$ y $(a+h, f(a+h))$ tiene pendiente igual al cociente
+incremental. Al hacer $h \to 0$ esa recta se acuesta sobre la curva: la tangente.
+
+```{.r filename="R · secantes que se acercan a la tangente"}
+f <- function(x) x^2
+a <- 1
+
+for (h in c(1, .5, .1, .01)) {
+  m <- (f(a + h) - f(a)) / h
+  cat(sprintf("h = %.2f  pendiente = %.3f\n", h, m))
+}
+```
+
+::: {.salida-pendiente}
+salida del chunk: secantes → tangente
+:::
+
+## Derivabilidad implica continuidad
+
+::: {.teorema}
+[Teorema 3.2]{.etiqueta}
+
+Si $f$ es derivable en $a$, entonces $f$ es continua en $a$.
+:::
+
+*Demostración.* Para $x \neq a$ escribimos
+
+$$
+f(x) - f(a) = \frac{f(x) - f(a)}{x - a} \cdot (x - a).
+$$
+
+Tomando límite cuando $x \to a$, el primer factor tiende a $f'(a)$ y el segundo
+a $0$, así que $\lim_{x \to a} f(x) = f(a)$. $\blacksquare$
+
+El recíproco es falso: $f(x) = |x|$ es continua en $0$ pero no derivable ahí,
+porque los límites laterales del cociente incremental valen $-1$ y $1$.

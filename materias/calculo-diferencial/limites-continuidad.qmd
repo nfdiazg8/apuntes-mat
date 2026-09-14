@@ -1,0 +1,11 @@
+---
+title: "Límites y continuidad"
+subtitle: "Definición épsilon-delta y propiedades"
+date: 2026-09-02
+---
+
+::: {.kicker}
+Tema 1 · 2 sep 2026
+:::
+
+> Apunte en construcción.

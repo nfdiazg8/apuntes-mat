@@ -1,0 +1,19 @@
+---
+title: "Cálculo diferencial"
+description: "límites · derivadas"
+listing:
+  id: apuntes
+  contents: "*.qmd"
+  type: default
+  fields: [title, subtitle, date]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  date-format: "D MMM YYYY"
+toc: false
+---
+
+Límites, continuidad, derivadas y sus aplicaciones.
+
+::: {#apuntes}
+:::

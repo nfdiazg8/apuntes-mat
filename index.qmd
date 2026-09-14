@@ -1,0 +1,65 @@
+---
+pagetitle: "apuntes-mat"
+page-layout: full
+sidebar: false
+toc: false
+anchor-sections: false
+---
+
+```{=html}
+<div class="am-home">
+<div class="am-wrap">
+
+<div class="am-hero">
+<div>
+<div class="am-eyebrow">Matemáticas con énfasis en Estadística</div>
+<h1>Apuntes de<br>clase, en limpio</h1>
+<p>Lo que escribo mientras estudio: demostraciones completas, ejercicios resueltos y el código que reproduce cada gráfica. La caja de herramientas de estadística se va llenando poco a poco.</p>
+</div>
+<div class="am-box">
+<div class="am-box-head">Commits recientes</div>
+<div class="am-commit"><span class="fecha">12-09</span><span>derivada.qmd</span></div>
+<div class="am-commit"><span class="fecha">09-09</span><span>semejanza-triangulos.qmd</span></div>
+<div class="am-commit"><span class="fecha">05-09</span><span>funciones-trig.qmd</span></div>
+<div class="am-commit"><span class="fecha">31-08</span><span>logica-cuantificadores.qmd</span></div>
+</div>
+</div>
+
+<a class="am-ultimo" href="materias/calculo-diferencial/derivada.html">
+<span class="et">ÚLTIMO APUNTE</span>
+<span class="tt"><strong>La derivada como límite del cociente incremental</strong> · 12 sep 2026 · Cálculo diferencial</span>
+<span class="go">leer →</span>
+</a>
+
+<div class="am-sechead">
+<h2>Materias con contenido</h2>
+<span class="cuenta">4 activas</span>
+</div>
+
+<div class="am-materias">
+<a class="am-materia" href="materias/fundamentos/index.html"><span class="num">01</span><span class="nom">Fundamentos de matemáticas</span><span class="sub">lógica · conjuntos</span><span class="flecha">→</span></a>
+<a class="am-materia" href="materias/precalculo/index.html"><span class="num">02</span><span class="nom">Precálculo</span><span class="sub">funciones · trigonometría</span><span class="flecha">→</span></a>
+<a class="am-materia" href="materias/geometria-euclidiana/index.html"><span class="num">03</span><span class="nom">Geometría euclidiana</span><span class="sub">axiomas · semejanza</span><span class="flecha">→</span></a>
+<a class="am-materia" href="materias/calculo-diferencial/index.html"><span class="num">04</span><span class="nom">Cálculo diferencial</span><span class="sub">límites · derivadas</span><span class="flecha">→</span></a>
+</div>
+
+<div class="am-herramientas">
+<div>
+<div class="et">Caja de herramientas · en construcción</div>
+<p>Primera herramienta lista: calculadora de la normal estándar. Siguen tablas Z y t, e intervalos de confianza.</p>
+</div>
+<a class="am-btn" href="herramientas/index.html">ver 1 de 3</a>
+</div>
+
+</div>
+
+<div class="am-wrap">
+<div class="am-stats">
+<div class="am-stat"><div class="n">04</div><div class="l">apuntes publicados</div></div>
+<div class="am-stat"><div class="n">04</div><div class="l">materias activas</div></div>
+<div class="am-stat"><div class="n">00</div><div class="l">cheatsheets PDF</div></div>
+<div class="am-stat"><div class="n">01</div><div class="l">herramienta activa</div></div>
+</div>
+</div>
+</div>
+```

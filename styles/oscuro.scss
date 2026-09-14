@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+$body-bg:        #101215;
+$body-color:     #eceef1;
+$link-color:     #79aede;
+$border-color:   rgba(236, 238, 241, .12);
+
+$navbar-bg:      #0b0d10;
+$navbar-fg:      #eceef1;
+$sidebar-bg:     #101215;
+$sidebar-fg:     #eceef1;
+
+$footer-bg:      #101215;
+$footer-fg:      rgba(236, 238, 241, .55);
+
+/*-- scss:rules --*/
+
+:root {
+  --am-bg:      #101215;
+  --am-panel:   #171a1e;
+  --am-code:    #0b0d10;
+  --am-ink:     #eceef1;
+  --am-body:    rgba(236, 238, 241, .82);
+  --am-dim:     rgba(236, 238, 241, .55);
+  --am-faint:   rgba(236, 238, 241, .42);
+  --am-line:    rgba(236, 238, 241, .12);
+  --am-edge:    rgba(236, 238, 241, .20);
+  --am-accent:  #79aede;
+  --am-nav-bg:  rgba(121, 174, 222, .16);
+  --am-nav-ink: #9ec7e8;
+  --am-code-ink:#d9e4ee;
+  --am-hatch:   rgba(236, 238, 241, .05);
+  --am-rule:    #eceef1;
+
+  /* home: papel cuadriculado */
+  --am-paper:   #101215;
+  --am-grid:    rgba(236, 238, 241, .05);
+  --am-bar:     #0b0d10;
+  --am-bar-ink: #eceef1;
+  --am-bar-dim: rgba(236, 238, 241, .55);
+  --am-card:    #171a1e;
+  --am-ok:      #5eead4;
+}

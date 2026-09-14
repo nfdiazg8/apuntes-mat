@@ -1,0 +1,22 @@
+---
+title: "Herramientas"
+description: "Calculadoras y tablas interactivas de estadística"
+sidebar: false
+toc: false
+---
+
+::: {.kicker}
+Caja de herramientas · en construcción
+:::
+
+Calculadoras pequeñas para no tener que abrir R por una cuenta de dos líneas.
+
+| Herramienta | Estado |
+|---|---|
+| Calculadora de la normal estándar | en construcción |
+| Tablas Z y t | pendiente |
+| Intervalos de confianza | pendiente |
+
+La calculadora normal del diseño usa la aproximación de Zelen & Severo para la
+función de distribución acumulada; se puede portar tal cual a un chunk de
+`{ojs}` cuando la montemos.

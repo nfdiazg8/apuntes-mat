@@ -1,0 +1,11 @@
+---
+title: "Lógica y cuantificadores"
+subtitle: "Proposiciones, conectivos y cuantificadores"
+date: 2026-08-31
+---
+
+::: {.kicker}
+Tema 1 · 31 ago 2026
+:::
+
+> Apunte en construcción.

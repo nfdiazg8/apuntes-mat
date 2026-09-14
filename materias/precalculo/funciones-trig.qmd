@@ -1,0 +1,11 @@
+---
+title: "Funciones trigonométricas"
+subtitle: "Círculo unitario e identidades"
+date: 2026-09-05
+---
+
+::: {.kicker}
+Tema 2 · 5 sep 2026
+:::
+
+> Apunte en construcción.
