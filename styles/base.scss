@@ -248,6 +248,18 @@ div.sourceCode pre code, pre code {
   color: var(--am-dim);
 }
 
+/* Salida de los chunks de R */
+pre.cell-output-stdout, div.cell-output-stdout pre {
+  background: transparent;
+  border: none;
+  border-left: 2px solid var(--am-edge);
+  border-radius: 0;
+  margin-top: .5rem;
+  padding: .3rem 0 .3rem 1rem;
+  color: var(--am-dim);
+  font-size: .78rem;
+}
+
 /* Navegación anterior / siguiente en píldoras */
 .nav-page a.pagination-link {
   display: inline-flex;
