@@ -39,9 +39,17 @@ for (h in c(1, .5, .1, .01)) {
 }
 ```
 
-::: {.salida-pendiente}
-salida del chunk: secantes → tangente
-:::
+```{r}
+#| echo: true
+#| filename: "R · secantes que se acercan a la tangente"
+f <- function(x) x^2
+a <- 1
+
+for (h in c(1, .5, .1, .01)) {
+  m <- (f(a + h) - f(a)) / h
+  cat(sprintf("h = %.2f  pendiente = %.3f\n", h, m))
+}
+```
 
 ## Derivabilidad implica continuidad
 

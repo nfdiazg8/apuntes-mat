@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/herramientas/index.html</loc>
-    <lastmod>2026-09-14T15:29:37.539Z</lastmod>
-  </url>
-  <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/materias/precalculo/index.html</loc>
-    <lastmod>2026-09-14T15:29:18.930Z</lastmod>
+    <lastmod>2026-09-14T15:33:16.112Z</lastmod>
   </url>
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/derivada.html</loc>
-    <lastmod>2026-09-14T15:28:56.060Z</lastmod>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/index.html</loc>
+    <lastmod>2026-09-14T15:33:16.014Z</lastmod>
   </url>
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/limites-continuidad.html</loc>
-    <lastmod>2026-09-14T15:29:08.663Z</lastmod>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/geometria-euclidiana/index.html</loc>
+    <lastmod>2026-09-14T15:33:16.025Z</lastmod>
   </url>
   <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/materias/fundamentos/index.html</loc>
     <lastmod>2026-09-14T15:33:16.054Z</lastmod>
   </url>
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/geometria-euclidiana/index.html</loc>
-    <lastmod>2026-09-14T15:29:18.931Z</lastmod>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/index.html</loc>
+    <lastmod>2026-09-14T15:33:16.084Z</lastmod>
   </url>
   <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/index.html</loc>
@@ -30,26 +26,30 @@
   </url>
   <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/formulas/index.html</loc>
-    <lastmod>2026-09-14T15:29:37.540Z</lastmod>
+    <lastmod>2026-09-14T15:33:15.966Z</lastmod>
   </url>
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/geometria-euclidiana/semejanza-triangulos.html</loc>
-    <lastmod>2026-09-14T15:29:18.934Z</lastmod>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/herramientas/index.html</loc>
+    <lastmod>2026-09-14T15:33:16.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/derivada.html</loc>
+    <lastmod>2026-09-14T15:56:19.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/limites-continuidad.html</loc>
+    <lastmod>2026-09-14T15:33:16.068Z</lastmod>
   </url>
   <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/materias/fundamentos/logica-cuantificadores.html</loc>
-    <lastmod>2026-09-14T15:29:18.932Z</lastmod>
+    <lastmod>2026-09-14T15:33:16.063Z</lastmod>
   </url>
   <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/calculo-diferencial/index.html</loc>
-    <lastmod>2026-09-14T15:29:08.662Z</lastmod>
+    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/geometria-euclidiana/semejanza-triangulos.html</loc>
+    <lastmod>2026-09-14T15:33:16.035Z</lastmod>
   </url>
   <url>
     <loc>https://nfdiazg8.github.io/apuntes-mat/materias/precalculo/funciones-trig.html</loc>
-    <lastmod>2026-09-14T15:29:18.933Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nfdiazg8.github.io/apuntes-mat/materias/index.html</loc>
-    <lastmod>2026-09-14T15:29:08.660Z</lastmod>
+    <lastmod>2026-09-14T15:33:16.104Z</lastmod>
   </url>
 </urlset>
