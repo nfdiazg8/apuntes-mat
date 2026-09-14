@@ -110,7 +110,7 @@
     "href": "materias/calculo-diferencial/derivada.html#interpretación-geométrica",
     "title": "La derivada",
     "section": "Interpretación geométrica",
-    "text": "Interpretación geométrica\nLa secante por \\((a, f(a))\\) y \\((a+h, f(a+h))\\) tiene pendiente igual al cociente incremental. Al hacer \\(h \\to 0\\) esa recta se acuesta sobre la curva: la tangente.\n\n\n\nR · secantes que se acercan a la tangente\n\nf &lt;- function(x) x^2\na &lt;- 1\n\nfor (h in c(1, .5, .1, .01)) {\n  m &lt;- (f(a + h) - f(a)) / h\n  cat(sprintf(\"h = %.2f  pendiente = %.3f\\n\", h, m))\n}\n\n\nh = 1.00  pendiente = 3.000\nh = 0.50  pendiente = 2.500\nh = 0.10  pendiente = 2.100\nh = 0.01  pendiente = 2.010",
+    "text": "Interpretación geométrica\nLa secante por \\((a, f(a))\\) y \\((a+h, f(a+h))\\) tiene pendiente igual al cociente incremental. Al hacer \\(h \\to 0\\) esa recta se acuesta sobre la curva: la tangente.\n\n\n\nR · secantes que se acercan a la tangente\n\nf &lt;- function(x) x^2\na &lt;- 1\nhs &lt;- c(1, .5, .1)\n\ncurve(f, from = -0.5, to = 2.8, lwd = 2, ylab = \"f(x)\", bty = \"n\")\nfor (i in seq_along(hs)) {\n  h &lt;- hs[i]\n  m &lt;- (f(a + h) - f(a)) / h\n  abline(a = f(a) - m * a, b = m, col = \"grey60\", lty = 2)\n}\nabline(a = f(a) - 2 * a, b = 2, col = \"#1f4e79\", lwd = 2)  # tangente\npoints(a, f(a), pch = 19)",
     "crumbs": [
       "[m]aterias",
       "Cálculo diferencial",

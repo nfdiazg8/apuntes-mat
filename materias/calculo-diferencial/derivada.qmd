@@ -31,14 +31,20 @@ incremental. Al hacer $h \to 0$ esa recta se acuesta sobre la curva: la tangente
 
 ```{r}
 #| echo: true
+#| fig-height: 4
 #| filename: "R · secantes que se acercan a la tangente"
 f <- function(x) x^2
 a <- 1
+hs <- c(1, .5, .1)
 
-for (h in c(1, .5, .1, .01)) {
+curve(f, from = -0.5, to = 2.8, lwd = 2, ylab = "f(x)", bty = "n")
+for (i in seq_along(hs)) {
+  h <- hs[i]
   m <- (f(a + h) - f(a)) / h
-  cat(sprintf("h = %.2f  pendiente = %.3f\n", h, m))
+  abline(a = f(a) - m * a, b = m, col = "grey60", lty = 2)
 }
+abline(a = f(a) - 2 * a, b = 2, col = "#1f4e79", lwd = 2)  # tangente
+points(a, f(a), pch = 19)
 ```
 
 ## Derivabilidad implica continuidad
