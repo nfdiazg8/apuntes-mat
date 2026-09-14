@@ -36,20 +36,20 @@ website:
       - text: "Todas las materias"
         href: materias/index.qmd
       - section: "Fundamentos de matemáticas"
+        href: materias/fundamentos/index.qmd
         contents:
-          - materias/fundamentos/index.qmd
           - materias/fundamentos/logica-cuantificadores.qmd
       - section: "Precálculo"
+        href: materias/precalculo/index.qmd
         contents:
-          - materias/precalculo/index.qmd
           - materias/precalculo/funciones-trig.qmd
       - section: "Geometría euclidiana"
+        href: materias/geometria-euclidiana/index.qmd
         contents:
-          - materias/geometria-euclidiana/index.qmd
           - materias/geometria-euclidiana/semejanza-triangulos.qmd
       - section: "Cálculo diferencial"
+        href: materias/calculo-diferencial/index.qmd
         contents:
-          - materias/calculo-diferencial/index.qmd
           - materias/calculo-diferencial/limites-continuidad.qmd
           - materias/calculo-diferencial/derivada.qmd
 
@@ -77,3 +77,7 @@ format:
     fig-align: center
 
 lang: es
+
+execute:
+  warning: false
+  message: false
