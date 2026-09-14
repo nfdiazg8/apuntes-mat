@@ -301,11 +301,12 @@ pre.cell-output-stdout, div.cell-output-stdout pre {
     linear-gradient(90deg, var(--am-grid) 1px, transparent 1px);
   background-size: 28px 28px;
   color: var(--am-ink);
-  margin: -1.5rem -1rem 0;
-  padding: 0 0 0;
+  margin: 0;
+  padding: 0;
+  min-height: calc(100vh - 3rem);
 }
 
-.am-wrap { max-width: 1080px; margin: 0 auto; padding: 0 2rem; }
+.am-wrap { max-width: 1240px; margin: 0 auto; padding: 0 3rem; }
 
 .am-hero {
   display: grid;

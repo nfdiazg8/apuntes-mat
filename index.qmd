@@ -1,6 +1,6 @@
 ---
 pagetitle: "apuntes-mat"
-page-layout: full
+page-layout: custom
 sidebar: false
 toc: false
 anchor-sections: false
